@@ -39,7 +39,7 @@
 }
 
 .display{
-    height: 130px;
+    height: 120px;
     background-color: #344055;
     opacity: .7;
     grid-column: 1/-1;
