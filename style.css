@@ -26,16 +26,17 @@ body{
     justify-content: center;
     border-radius: 30px;
     padding-top: 20px;
+    box-shadow: 12px 12px 12px -5px rgb(58, 58, 58);
     
 }
 
 .calculadora button{
     cursor: pointer;
     font-size: 1.5rem;
-    border-radius: 30%;
-    border: none;
+    border-radius: 32%;
     margin: 5px;
-    box-shadow: 5px 5px 10px -3px;
+    box-shadow: 5px 5px 10px -3px rgb(116, 115, 115);
+    padding: 0;
 }
 
 .calculadora button:hover{
@@ -46,6 +47,7 @@ body{
 .display{
     height: 120px;
     background-color: #5c6980;
+    box-shadow: 5px 5px 10px -3px rgb(175, 175, 175);
     opacity: .7;
     grid-column: 1/-1;
     border-radius: 32px ;
