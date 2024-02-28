@@ -24,7 +24,7 @@ body{
     grid-template-columns: repeat(4,80px);
     grid-template-rows: 130px repeat(6,80px);
     justify-content: center;
-    border-radius: 30px;
+    border-radius: 35px;
     padding-top: 20px;
     box-shadow: 12px 12px 12px -5px rgb(58, 58, 58);
     
@@ -35,12 +35,12 @@ body{
     font-size: 1.5rem;
     border-radius: 32%;
     margin: 5px;
-    box-shadow: 5px 5px 10px -3px rgb(116, 115, 115);
+    box-shadow: 5px 5px 10px -3px rgb(179, 177, 177);
     padding: 0;
 }
 
 .calculadora button:hover{
-    background-color: rgb(124, 172, 123);
+    background-color: rgb(213, 194, 223);
 
 }
 
