@@ -4,6 +4,11 @@
     padding: 0;
 }
 
+body{
+    background-image: url("./fonts/Math.jpg");
+    
+}
+
 .comtainer{
     display: flex;
     justify-content: center;
@@ -14,19 +19,19 @@
     height: 600px;
     margin-left: auto;
     margin-right: auto;
-    background-color: rgba(104, 138, 27, 0.589);
+    background-color: black;
     display: grid;
     grid-template-columns: repeat(4,80px);
     grid-template-rows: 130px repeat(6,80px);
     justify-content: center;
     border-radius: 30px;
     padding-top: 20px;
+    
 }
 
 .calculadora button{
     cursor: pointer;
     font-size: 1.5rem;
-    background-color: rgb(197, 216, 233);
     border-radius: 30%;
     border: none;
     margin: 5px;
@@ -34,13 +39,13 @@
 }
 
 .calculadora button:hover{
-    background-color: rgba(87, 79, 79, 0.589);
+    background-color: rgb(124, 172, 123);
 
 }
 
 .display{
     height: 120px;
-    background-color: #344055;
+    background-color: #5c6980;
     opacity: .7;
     grid-column: 1/-1;
     border-radius: 32px ;
@@ -50,8 +55,22 @@
     word-break: break-all;
 }
 
+.color{
+    background-color: rgb(240, 163, 21);
+
+}
+
+.button2{
+    background-color: rgb(161, 188, 212);
+}
+
 .span2 {
     grid-row: span 2;
+    background-color: rgb(240, 163, 21);
+}
+
+.span3 {
+    grid-column: span 2;
 }
 
 .valor-superior{
