@@ -16,7 +16,7 @@ class UI {
             document.getElementById('Sum').value = `${parseInt(num1) + parseInt(num2)}`
         }
     }
-    
+    }
     restar(num1 , num2) {
         const checkbox = document.getElementById('checkR').checked
         if(checkbox == true) {

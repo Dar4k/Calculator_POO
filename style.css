@@ -6,12 +6,14 @@
 
 body{
     background-image: url("./fonts/Math.jpg");
-    
+    margin: 0;
 }
 
 .comtainer{
     display: flex;
     justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 .calculadora{
@@ -40,14 +42,14 @@ body{
 }
 
 .calculadora button:hover{
-    background-color: rgb(213, 194, 223);
-
+    background-color: rgb(71, 70, 71);
+    font: white;
 }
 
 .display{
     height: 120px;
     background-color: #5c6980;
-    box-shadow: 5px 5px 10px -3px rgb(175, 175, 175);
+    box-shadow: 5px 5px 10px -3px rgb(168, 167, 167);
     opacity: .7;
     grid-column: 1/-1;
     border-radius: 32px ;
