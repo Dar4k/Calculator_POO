@@ -5,35 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora</title>
     <link rel="stylesheet" href="style.css">
+    <script src="Display.js" type="text/javascript"></script>
+    <script src="Calculadora.js" type="text/javascript"></script>
+    <script src="script.js" type="text/javascript" defer></script>
 
 </head>
 <br>
     <br>
         <div class="calculadora">
             <div class="display">
-                <div class="valor-superior">  </div>
-                <div class="valor-inferior"></div>
+                <div id="valor-anterior">  </div>
+                <div id="valor-actual"></div>
             </div>
-            <button class="button2">C</button>
-            <button class="button2"data-operador>&#247;</button>
-            <button class="button2"data-operador>&#215;</button>
-            <button class="color"borrar>&larr;</button>
-            <button class="numero button2"data-numero>7</button>
-            <button class="numero button2"data-numero>8</button>
-            <button class="numero button2"data-numero>9</button>
-            <button class="color"data-operador>-</button>
-            <button class="numero button2"data-numero>4</button>
-            <button class="numero button2"data-numero>5</button>
-            <button class="numero button2"data-numero>6</button>
-            <button class="color"data-operador>+</button>
-            <button class="numero button2"data-numero>1</button>
-            <button class="numero button2"data-numero>2</button>
-            <button class="numero button2"data-numero>3</button>
-            <button class="span2" data-igual>=</button>
-            <button class="span3 button2"data-numero>0</button>
-            <button class="numero button2"data-numero>.</button>
+            <button class="button2" onclick="display.borrarTodo()">C</button>
+            <button class="button2 operador" value="dividir">&#247;</button>
+            <button class="button2 operador" value="multiplicar">&#215;</button>
+            <button class="color" onclick="display.borrar()">&larr;</button>
+            <button class="button2 numero">7</button>
+            <button class="button2 numero">8</button>
+            <button class="button2 numero">9</button>
+            <button class="color operador" value="restar">-</button>
+            <button class="button2 numero">4</button>
+            <button class="button2 numero">5</button>
+            <button class="button2 numero">6</button>
+            <button class="color operador" value="sumar">+</button>
+            <button class="button2 numero">1</button>
+            <button class="button2 numero">2</button>
+            <button class="button2 numero">3</button>
+            <button class="span2 operador" value="igual" >=</button>
+            <button class="span3 button2 numero" >0</button>
+            <button class="button2 numero" >.</button>
         </div>
-        
-    <script> src="script.js"</script>
 </body>
 </html>
